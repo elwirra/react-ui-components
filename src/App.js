@@ -1,4 +1,5 @@
-import '../node_modules/bulma/css/bulma.css'
+import '../node_modules/bulma/css/bulma.css';
+import './App.css';
 import ProfileCard from './ProfileCard';
 import AlexaImage from './images/alexa.png';
 import CortanaImage from './images/cortana.png';
@@ -7,8 +8,10 @@ import SiriImage from './images/siri.png';
 function App() {
     return (
         <div>
-            <div>Personal Digital Assistance</div>
             <div className="container">
+                <div className="section">
+                    <h1 className="title">Personal Digital Assistance</h1>
+                </div>
                 <div className="section">
                     <div className="columns">
                         <ProfileCard 
