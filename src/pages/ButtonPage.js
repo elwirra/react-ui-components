@@ -2,13 +2,9 @@ import { GoBell, GoDatabase, GoCloudDownload } from 'react-icons/go';
 import Button from "../components/Button";
 
 function ButtonPage() {
-    const handleClick = () => {
-        console.log('Click');
-    };
-
     return (
         <div> 
-            <div><Button className="mb-5" success rounded onClick={handleClick}>
+            <div><Button className="mb-5" success rounded>
                 <GoBell />Click me!</Button></div>
             <div><Button danger>
                 <GoDatabase />Buy now!</Button></div>
